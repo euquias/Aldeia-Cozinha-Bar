@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/template/header/header.component';
 import { BodyComponent } from './components/template/body/body.component';
 import { FooterComponent } from './components/template/footer/footer.component';
+import { IconsComponent } from './components/template/header/icons/icons.component';
+import { CarroselComponent } from './components/template/header/carrosel/carrosel.component';
+import { InforComponent } from './components/template/header/infor/infor.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BodyComponent,
-    FooterComponent
+    FooterComponent,
+    IconsComponent,
+    CarroselComponent,
+    InforComponent
   ],
   imports: [
     BrowserModule,
