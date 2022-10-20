@@ -1,11 +1,14 @@
 .container-fluid{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(85,232,24,1) 42%, rgba(0,212,255,1) 100%);
+    
+     /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(85,232,24,1) 42%, rgba(0,212,255,1) 100%); */ 
+
+         background-image: url("../../../../assets/capa.jfif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center; 
+      
 }
    
-a{
-    display: flex;
-    text-decoration: none;
-    color: #fff;
-}
+
 
