@@ -1,31 +1,32 @@
-
 .social-network a {
-  color: black;
+  color: rgb(10, 207, 79);
 }
-.social-network ul{
-  display: flex;
-  flex-direction:column;
 
+.social-network ul {
+  display: flex;
+  /* flex-direction:column; */
+  
 }
+
 .social-network a:hover {
-  color: #fff;
+  color: gray;
 }
 
 a {
   text-decoration: none;
-  
+
 }
 
 .social-network a:hover {
   text-decoration: none;
 }
 
- ul.social-network li {
-  /* display: inline; */
+ul.social-network li {
+   display: inline; 
   display: flex;
   margin: 0 5px;
-  
-} 
+
+}
 
 .social-network i {
   margin-top: 5px;
@@ -33,12 +34,10 @@ a {
   margin-right: 3px;
 }
 
- .links {
-  flex-direction: column;
+.links {
   display: flex;
-  flex-direction: column;
   margin-top: 10px;
-} 
+}
 
 .fa-money {
   margin: 5px;
@@ -47,10 +46,12 @@ a {
 .fa-credit-card-alt {
   margin: 5px;
 }
-.fa-map-marker{
+
+.fa-map-marker {
   margin: 5px;
 }
-.fa-clock-o{
+
+.fa-clock-o {
   margin: 5px;
 }
 
@@ -59,8 +60,8 @@ a {
 }
 
 .fa-files-o:hover {
-  color:blue;
-  
+  color: blue;
+
 }
 
 .fa-check-square-o {
@@ -70,20 +71,29 @@ a {
 .copiado {
   color: greenyellow;
 }
-.local{
+
+.local {
   font-size: 15px;
 }
-p{
+
+p {
   font-size: 10px;
 }
-.text{
-  font-size: 20px;
+
+.text {
+  font-size: 15px;
+  color: black;
 }
-.fechado{
+
+.fechado {
   color: red;
   font-size: 20px;
 }
-.aberto{
+
+.aberto {
   color: green;
   font-size: 20px;
+}
+.text-1{
+  color: red;
 }
