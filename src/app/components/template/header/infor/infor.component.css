@@ -76,3 +76,14 @@ a {
 p{
   font-size: 10px;
 }
+.text{
+  font-size: 20px;
+}
+.fechado{
+  color: red;
+  font-size: 20px;
+}
+.aberto{
+  color: green;
+  font-size: 20px;
+}
