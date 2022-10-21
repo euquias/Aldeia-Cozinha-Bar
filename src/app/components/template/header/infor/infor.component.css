@@ -2,12 +2,6 @@
   color: rgb(10, 207, 79);
 }
 
-.social-network ul {
-  display: flex;
-  /* flex-direction:column; */
-  
-}
-
 .social-network a:hover {
   color: gray;
 }
@@ -21,22 +15,13 @@ a {
   text-decoration: none;
 }
 
-ul.social-network li {
+ ul.social-network li {
    display: inline; 
-  display: flex;
-  margin: 0 5px;
-
-}
+} 
 
 .social-network i {
-  margin-top: 5px;
   font-size: 20px;
-  margin-right: 3px;
-}
 
-.links {
-  display: flex;
-  margin-top: 10px;
 }
 
 .fa-money {
